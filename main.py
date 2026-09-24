@@ -1,8 +1,8 @@
 # main.py
 import grades
 
-LAST_NAME = "Moya"
-STUDENT_ID = "TUPM-26-1138"
+LAST_NAME = "Ladrera"
+STUDENT_ID = "TUPM-26-1132"
 
 SEED_DIGIT = int(STUDENT_ID[-1])
 ID_SUM = sum(int(d) for d in STUDENT_ID if d.isdigit())
